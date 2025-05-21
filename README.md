@@ -11,3 +11,15 @@ Rascunho e etética do site.
 Atualização 3.0 - Área de Navegação e Pesquisa 
 Sprint 3
 - Nycolas Dalton
+
+---
+
+# Sprint 1 
+
+---
+
+# Sprint 2
+
+---
+
+# Sprint 3
