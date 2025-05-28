@@ -37,10 +37,32 @@ if(loginClose){
 }
 
 /*=============== ADD SHADOW HEADER ===============*/
-
+const shadowHeader = () =>{
+    const header = document.getElementById('header')
+    // Add a class if the bottom offset is greater than 50 of the viewport
+    this.scrollY >= 50 ? header.classList.add('shadow-header') 
+                       : header.classList.remove('shadow-header')
+}
+window.addEventListener('scroll', shadowHeader)
 
 /*=============== HOME SWIPER ===============*/
+let swiperHome = new Swiper('.home__swiper', {
+  loop: true,
+  spaceBetween: -24,
+  grabCursor: true,
+  slidesPerview: 'auto',
+  centeredSlides: 'auto',
 
+  autoplay: {
+    delay: 3000,
+    disableOninteraction: false,
+  },
+  breakpoints: {
+    1220: {
+        spaceBetween: -32,
+    }
+  }
+})
 
 /*=============== FEATURED SWIPER ===============*/
 
@@ -52,6 +74,13 @@ if(loginClose){
 
 
 /*=============== SHOW SCROLL UP ===============*/ 
+const scrollUp = () =>{
+	const scrollUp = document.getElementById('scroll-up')
+    // When the scroll is higher than 350 viewport height, add the show-scroll class to the a tag with the scrollup class
+	this.scrollY >= 25 ? scrollUp.classList.add('show-scroll')
+						: scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
 
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
