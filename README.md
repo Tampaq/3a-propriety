@@ -16,3 +16,11 @@ Rascunho e etética do site.
 # Sprint 3
 ## Atualização 3.0 - Área de Navegação e Pesquisa 
 - Nycolas Dalton
+
+---
+
+# Sprint 4
+## Atualização 4.0 - Atualização
+Tela de login mas sem banco de dados, Barra de pesquisa, Botão de rolar para cima no website, Slide dos livros.
+- Nycolas Dalton
+
