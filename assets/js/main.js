@@ -74,7 +74,7 @@ let swiperFeatured = new Swiper('.featured__swiper', {
 
   navigation: {
 nextEl: '.swiper-button-next',
-prevEL: '.swiper-button-prev',
+prevEl: '.swiper-button-prev',
   },
 
   breakpoints: {
