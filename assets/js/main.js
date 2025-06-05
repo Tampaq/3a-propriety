@@ -96,7 +96,7 @@ prevEl: '.swiper-button-prev',
 const scrollUp = () =>{
 	const scrollUp = document.getElementById('scroll-up')
     // When the scroll is higher than 350 viewport height, add the show-scroll class to the a tag with the scrollup class
-	this.scrollY >= 25 ? scrollUp.classList.add('show-scroll')
+	this.scrollY >= 50 ? scrollUp.classList.add('show-scroll')
 						: scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
