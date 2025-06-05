@@ -20,7 +20,17 @@ Rascunho e etética do site.
 ---
 
 # Sprint 4
-## Atualização 4.0 - Atualização
-Tela de login mas sem banco de dados, Barra de pesquisa, Botão de rolar para cima no website, Slide dos livros.
-- Nycolas Dalton
+## Atualização 4.5 - Atualização
+Tela de login sem integração com banco de dados
+Barra de pesquisa funcional
+Botão de rolagem para o topo da página
+Carrossel/slide de exibição dos livros
+Página de política de privacidade
+Aviso sobre o uso de cookies
+Seção com categorias de livros
+Aba dedicada a descontos e promoções
+Seção com livros organizados por gênero
+- Nycolas Dalton e Ana Richeçy
+
+
 
