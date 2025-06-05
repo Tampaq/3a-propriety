@@ -395,10 +395,15 @@ img {
   overflow: hidden;
   border: 2px solid var(--border-color);
   transition: border .4s, background-color .4s;
+  height: 36rem;
 }
 .featured__img{
   width: 150px;
   margin: 0 auto .75rem;
+}
+.featured__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: .5rem;
 }
 .featured__prices{
   display: flex;
@@ -479,16 +484,8 @@ right: 1.5rem;
 .discount__img-2{
   transform: translateX(-1rem) rotate(12deg);
 }
-/*=============== NEW ===============*/
 
-
-/*=============== JOIN ===============*/
-
-
-/*=============== TESTIMONIAL ===============*/
-
-
-/*=============== FOOTER ===============*/
+/*=============== Barra de informações ===============*/
 .footer{
   padding-block: 4rem 6rem;
 }
@@ -508,7 +505,7 @@ right: 1.5rem;
   font-size: 1.25rem;
 }
 
-/*=============== SCROLL BAR ===============*/
+/*=============== barra de rolamento ===============*/
 ::-webkit-scrollbar{
   width: .6rem;
   border-radius: .5rem;
