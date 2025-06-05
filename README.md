@@ -29,7 +29,8 @@ Página de política de privacidade,
 Aviso sobre o uso de cookies,
 Seção com categorias de livros,
 Aba dedicada a descontos e promoções,
-Seção com livros organizados por gênero.
+Seção com livros organizados por gênero,
+Modo escuro.
 - Nycolas Dalton e Ana Richely
 
 
